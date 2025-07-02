@@ -1,0 +1,7 @@
+-- vim.cmd("colorscheme tokyonight")
+-- vim.cmd("colorscheme catppuccin")
+-- vim.cmd("colorscheme oxocarbon")
+-- vim.cmd("colorscheme austere")
+vim.cmd("colorscheme nord")
+-- vim.cmd("colorscheme poimandres")
+-- vim.cmd("colorscheme github_dark_high_contrast")
