@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/home/josue/.local/share/nvim/site/pack/packer/start/async.vim",
     url = "https://github.com/prabirshrestha/async.vim"
   },
-  ["austere.vim"] = {
-    loaded = true,
-    path = "/home/josue/.local/share/nvim/site/pack/packer/start/austere.vim",
-    url = "https://github.com/LuRsT/austere.vim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/josue/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -122,6 +117,11 @@ _G.packer_plugins = {
     path = "/home/josue/.local/share/nvim/site/pack/packer/start/copilot.lua",
     url = "https://github.com/zbirenbaum/copilot.lua"
   },
+  ["cyberdream.nvim"] = {
+    loaded = true,
+    path = "/home/josue/.local/share/nvim/site/pack/packer/start/cyberdream.nvim",
+    url = "https://github.com/scottmckendry/cyberdream.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/josue/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -136,6 +136,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/josue/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/home/josue/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,

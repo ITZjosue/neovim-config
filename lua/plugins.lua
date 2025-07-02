@@ -23,9 +23,10 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'nvim-treesitter/nvim-treesitter' -- syntax highlighting
   -- colorschemes
+  use 'scottmckendry/cyberdream.nvim'
+  use 'ellisonleao/gruvbox.nvim'
   use 'shaunsingh/nord.nvim'
   use 'olivercederborg/poimandres.nvim'
-  use 'LuRsT/austere.vim'
   use ({ 'projekt0n/github-nvim-theme' })
   use 'nyoom-engineering/oxocarbon.nvim'
   use 'folke/tokyonight.nvim'
