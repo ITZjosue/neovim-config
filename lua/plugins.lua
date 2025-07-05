@@ -20,6 +20,7 @@ vim.cmd([[
 
 
 return require('packer').startup(function(use)
+  use "lukas-reineke/indent-blankline.nvim" -- indentation guide
   use 'wbthomason/packer.nvim'
   use 'nvim-treesitter/nvim-treesitter' -- syntax highlighting
   -- colorschemes

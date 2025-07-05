@@ -8,7 +8,7 @@ local keymap = vim.keymap
 keymap.set("n","<leader>nh",":nohl<CR>")
 keymap.set("n","x",'"_x"')
 keymap.set("n", "<leader>w",function()
-  vim.wo.wrap = not vim.wo.wrap
+vim.wo.wrap = not vim.wo.wrap
 end) -- toggle wrap
 
 keymap.set("n","<leader>sv","<C-w>v") -- slit vertically

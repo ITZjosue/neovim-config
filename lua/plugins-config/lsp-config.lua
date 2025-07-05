@@ -42,11 +42,20 @@ lspConfig.svelte.setup({})
 lspConfig.gopls.setup({})
 lspConfig.tailwindcss.setup({})
 lspConfig.dockerls.setup({})
--- lspConfig.grammarly.setup({})
+lspConfig.grammarly.setup({})
 lspConfig.sqls.setup({})
 lspConfig.lemminx.setup({})
 lspConfig.bashls.setup({})
 lspConfig.biome.setup({})
-lspConfig.solargraph.setup({})
+lspConfig.solargraph.setup({
+  settings = {
+    solargraph = {
+      diagnostics = false,
+      formatting = true,
+      completion = true,
+      useBundler = true,
+    },
+  },
+})
 lspConfig.ts_ls.setup({})
 lspConfig.pylsp.setup({})
