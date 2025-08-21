@@ -3,4 +3,11 @@ if not status then
   return
 end
 
-gitsigns.setup({})
+gitsigns.setup({
+  word_diff = true,
+  current_line_blame = true,
+  current_line_blame_opts = {
+    virt_text_pos = "eol",
+    delay = 500,
+  },
+})
