@@ -31,6 +31,7 @@ return require('packer').startup(function(use)
   use ({ 'projekt0n/github-nvim-theme' })
   use 'nyoom-engineering/oxocarbon.nvim'
   use 'folke/tokyonight.nvim'
+  use 'iruzo/matrix-nvim'
   -- colorschemes
 
   -- snippets

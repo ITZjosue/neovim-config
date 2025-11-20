@@ -22,7 +22,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 
 vim.lsp.enable('lua_ls')
 vim.lsp.enable('harper_ls')
-vim.lsp.enable('eslint' )
+vim.lsp.enable('eslint')
 vim.lsp.enable('html')
 vim.lsp.enable('svelte')
 vim.lsp.enable('gopls')
@@ -34,6 +34,7 @@ vim.lsp.enable('lemminx')
 vim.lsp.enable('bashls')
 vim.lsp.enable('biome')
 vim.lsp.enable('solargraph')
+vim.lsp.enable('xmlformat')
 --   settings = {
 --     solargraph = {
 --       diagnostics = false,

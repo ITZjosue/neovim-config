@@ -159,6 +159,11 @@ _G.packer_plugins = {
     path = "/home/asmmodeo/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["matrix-nvim"] = {
+    loaded = true,
+    path = "/home/asmmodeo/.local/share/nvim/site/pack/packer/start/matrix-nvim",
+    url = "https://github.com/iruzo/matrix-nvim"
+  },
   ["nord.nvim"] = {
     loaded = true,
     path = "/home/asmmodeo/.local/share/nvim/site/pack/packer/start/nord.nvim",
