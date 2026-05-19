@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- line numbers
-opt.relativenumber = true
+-- opt.relativenumber = true
 opt.number = true
 
 -- tabs and identation
@@ -31,18 +31,6 @@ opt.backspace = "indent,eol,start"
 
 --clipboard
 opt.clipboard:append("unnamedplus")
--- vim.g.clipboard = {
---   name = 'win32yank-wsl',
---   copy = {
---     ['+'] = 'win32yank.exe -i --crlf',
---     ['*'] = 'win32yank.exe -i --crlf',
---   },
---   paste = {
---     ['+'] = 'win32yank.exe -o --lf',
---     ['*'] = 'win32yank.exe -o --lf',
---   },
---   cache_enabled = 0,
--- }
 
 -- split windows
 opt.splitright = true

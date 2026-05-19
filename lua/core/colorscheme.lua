@@ -4,12 +4,13 @@
 -- vim.cmd("colorscheme tokyonight")
 -- vim.cmd("colorscheme catppuccin")
 -- vim.cmd("colorscheme oxocarbon")
-vim.cmd("colorscheme nord")
+-- vim.cmd("colorscheme nord")
 -- Load the colorscheme
-vim.g.nord_disable_background = true
-require('nord').set()
+-- vim.g.nord_disable_background = true
+-- require('nord').set()
 -- vim.cmd("colorscheme poimandres")
--- vim.cmd("colorscheme github_dark_high_contrast")
+vim.cmd("colorscheme github_dark_high_contrast")
+vim.cmd("colorscheme github_dark_dimmed")
 -- require("gruvbox").setup({
 --   transparent_mode = true,
 -- })

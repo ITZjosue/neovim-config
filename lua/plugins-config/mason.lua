@@ -11,6 +11,7 @@ require("mason-lspconfig").setup({
     "dockerls",
     "yamlls",
     "gopls",
+    -- "mdformat"
   },
   automatic_enable= false,
 })
